@@ -27,7 +27,8 @@ botao.addEventListener("click", () => {
         }
             console.log(`Nome do usuário: ${nome}`);
             console.log(`Idade do usuário:${idade}`);
-     } else  {
+    }
+    {
         mensagem.innerText = "Nome não fornecido. Por favor, insira um nome.";
         mensagem.style.color = "orange"; //Alter a cor do texto para laranja
     }
